@@ -1,0 +1,22 @@
+.cars_container {
+   background-color: rgb(207, 207, 207);
+   width: 400px;
+   padding: 25px;
+   text-align: center;
+   margin: 20px auto;
+   border-radius: 10px;
+}
+
+.cars_title {
+   font-size: 1.65rem;
+   margin-bottom: 15px;
+}
+
+.cars_paragraph {
+   margin: 10px 0;
+   font-size: 1.1rem;
+}
+
+.cars_paragraph:last-child {
+   font-weight: bold;
+}

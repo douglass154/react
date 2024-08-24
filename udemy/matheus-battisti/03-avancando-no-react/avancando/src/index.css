@@ -1,0 +1,10 @@
+body {
+  padding-bottom: 500px;
+}
+
+hr {
+   height: '10px';
+   background-color: 'black';
+   border-radius: '10px';
+   margin: '40px 0';
+}
