@@ -1,0 +1,36 @@
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Helvetica, sans-serif;
+}
+
+html,
+body {
+   height: 100vh;
+   background: linear-gradient(
+      180deg,
+      rgba(9, 35, 175, 1) 0%,
+      rgba(0, 0, 0, 1) 100%);
+   color: white;
+}
+
+button {
+   padding: 14px;
+   font-size: 1.1rem;
+   font-weight: bold;
+   height: 50px;
+   text-transform: uppercase;
+   border: 2px solid white;
+   border-radius: 4px;
+   background-color: #1646a0;
+   color: white;
+   cursor: pointer;
+   transition: 0.4s;
+}
+
+button:hover {
+   background-color: #0923af;
+   transform: translateY(-2px);
+}

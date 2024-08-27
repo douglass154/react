@@ -1,0 +1,21 @@
+
+.game_over {
+   margin: 40px 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   min-height: 85dvh;
+}
+
+.game_over h2 {
+   margin: 20px 0;
+   font-size: 1.7em;
+}
+
+.game_over h2 span {
+   color: #ecfa00;
+}
+
+.game_over button {
+   margin-top: 20px;
+}
