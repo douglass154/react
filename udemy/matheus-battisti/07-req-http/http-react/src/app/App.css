@@ -1,0 +1,57 @@
+
+.App {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.App h1 {
+   font-size: 2.6em;
+   margin-bottom: 40px;
+}
+
+.App ul {
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 10px;
+}
+
+.App hr {
+   margin: 30px 0;
+   height: 8px;
+   background-color: black;
+   border: none;
+   border-radius: 10px;
+}
+
+.App .add-product label {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 1.3rem;
+   gap: 15px;
+   margin-top: 10px;
+}
+
+.App .add-product label input {
+   width: 78%;
+   padding: 6px;
+   border: 2px solid lightslategrey;
+   border-radius: 6px;
+   outline: none;
+}
+
+.App .add-product input[type="submit"] {
+   margin-top: 20px;
+   padding: 15px 0;
+   width: 100%;
+   font-size: 1em;
+   font-weight: bold;
+   background-color: #ec1261;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}

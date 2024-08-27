@@ -1,0 +1,29 @@
+{
+  "pruducts": [
+    {
+      "id": "2",
+      "name": "Calça vermelha",
+      "price": 90.89
+    },
+    {
+      "id": "3",
+      "name": "Boné aba reta",
+      "price": 29.9
+    },
+    {
+      "id": "b2fe",
+      "name": "capa de chuva",
+      "price": "50.50"
+    },
+    {
+      "id": "0a56",
+      "name": "Teclado",
+      "price": "160"
+    },
+    {
+      "id": "7577",
+      "name": "suporte mic",
+      "price": "59.90"
+    }
+  ]
+}
