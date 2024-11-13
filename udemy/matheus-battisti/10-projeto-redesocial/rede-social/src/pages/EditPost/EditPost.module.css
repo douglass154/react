@@ -1,0 +1,44 @@
+
+.edit_post {
+   text-align: center;
+   width: 90%;
+   max-width: 600px;
+   margin: 60px auto 0;
+}
+
+.edit_post h2 {
+   font-size: 2.2em;
+}
+
+.edit_post p {
+   color: #aaa;
+   margin: 10px 0 50px;
+}
+
+.edit_post .preview_title {
+   margin-bottom: .2em;
+   color: #000;
+   font-weight: bold;
+   text-align: left;
+}
+
+.img_preview {
+   max-width: 100%;
+   margin: 10px 0;
+   border-radius: 3px;
+}
+
+.edit_post textarea {
+   resize: none;
+}
+
+.edit_post button {
+   width: 50%;
+   margin: 15px 0 50px;
+}
+
+@media (max-width: 560px) {
+   .edit_post h2 {
+      font-size: 1.5em;
+   }
+}

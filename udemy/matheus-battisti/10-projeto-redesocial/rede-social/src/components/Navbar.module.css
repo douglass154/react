@@ -1,0 +1,116 @@
+.navbar {
+   background-color: var(--lightgreen);
+   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.37);
+   padding: 1.2em 2em;
+   height: 70px;
+   z-index: 1;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   position: sticky;
+   top: 0;
+}
+
+.brand {
+   font-size: 1em;
+   color: #000;
+}
+
+.brand span {
+   font-weight: 900;
+   text-transform: uppercase;
+}
+
+.nav_list {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+.menu_burguer {
+   display: none;
+   border: none;
+   background: none;
+   border-top: 3px solid #fff;
+   cursor: pointer;
+}
+
+.menu_burguer::before,
+.menu_burguer::after {
+   content: " ";
+   display: block;
+   margin-top: 5px;
+   width: 30px;
+   height: 3px;
+   background-color: #fff;
+   position: relative;
+   transition: 0.3s;
+}
+
+.links_list {
+   display: flex;
+   list-style: none;
+}
+
+.links_list li {
+   margin-right: 1em;
+}
+
+.links_list li a {
+   padding: 0.4em 0.6em;
+}
+
+@media (max-width: 760px) {
+   .menu_burguer {
+      display: block;
+      z-index: 1;
+   }
+
+   .links_list {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      background: linear-gradient(120deg, var(--lightgreen), var(--lightblue));
+      height: 100vh;
+      width: 100vw;
+      clip-path: circle(100px at 115% -7%);
+      transition: 1s ease-out;
+
+      position: fixed;
+      top: 0;
+      right: 0;
+      pointer-events: none;
+   }
+
+   .links_list li {
+      margin: 0;
+   }
+
+   .links_list li a {
+      font-size: 1.4em;
+      font-weight: bold;
+   }
+
+   .nav_list.active .links_list {
+      clip-path: circle(1500px at 115% -7%);
+      pointer-events: all;
+   }
+
+   .nav_list.active .menu_burguer {
+      position: fixed;
+      right: 32px;
+      border-top-color: transparent;
+   }
+
+   .nav_list.active .menu_burguer::before {
+      transform: rotate(135deg);
+   }
+
+   .nav_list.active .menu_burguer::after {
+      transform: rotate(-135deg);
+      top: -8px;
+   }
+}

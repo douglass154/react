@@ -1,0 +1,38 @@
+
+.create_post {
+   text-align: center;
+   margin: 60px auto 0;
+   width: 90%;
+}
+
+.create_post h2 {
+   font-size: 2.2em;
+}
+
+.create_post p {
+   color: #aaa;
+   margin: 10px 0 50px;
+}
+
+.create_post textarea {
+   resize: none;
+}
+
+.create_post button {
+   width: 50%;
+   margin-top: 15px;
+}
+
+@media (max-width: 450px) {
+   .create_post h2 {
+      font-size: 1.6em;
+   }
+
+   .create_post p {
+      font-size: 0.9em;
+   }
+
+   .create_post button {
+      width: 100%;
+   }
+}

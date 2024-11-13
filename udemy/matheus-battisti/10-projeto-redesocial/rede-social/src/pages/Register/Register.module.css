@@ -1,0 +1,74 @@
+
+.register_container {
+   background: linear-gradient(90deg, var(--lightgreen), var(--lightblue));
+   text-align: center;
+   height: calc(100vh - 70px);
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.register {
+   background-color: #fff;
+   width: 90%;
+   max-width: 1000px;
+   border-radius: 25px;
+   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+   overflow: hidden;
+
+   display: flex;
+}
+
+.register img {
+   max-width: 420px;
+   object-fit: cover;
+}
+
+.register div {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 45%;
+   margin: 0 auto;
+}
+
+.register h1 {
+   text-align: center;
+   font-size: 1.8em;
+   color: var(--lightblue);
+   text-transform: uppercase;
+}
+ 
+.register p {
+   color: #aaa;
+   margin: 10px 0 50px;
+   font-size: 0.9em;
+}
+
+.register form {
+   min-width: 100%;
+   margin: 0;
+}
+
+.register button {
+   width: 100%;
+   margin-top: 15px;
+}
+
+@media (max-width: 920px) {
+   .register {
+      max-width: 500px;
+      border-radius: 10px;
+   }
+
+   .register img {
+      display: none;
+   }
+
+   .register div {
+      width: 100%;
+      margin: 30px 40px;
+   }
+}
