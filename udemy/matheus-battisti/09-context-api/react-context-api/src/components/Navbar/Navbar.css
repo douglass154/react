@@ -1,0 +1,21 @@
+.navbar {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   margin: 20px 0;
+}
+
+.navbar a {
+   font-size: 1.3em;
+   padding: 5px 10px;
+   border-radius: 7px;
+}
+
+.navbar a:visited {
+   color: blue;
+}
+
+.navbar a.active {
+   color: white;
+   background-color: black;
+}
