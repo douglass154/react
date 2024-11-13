@@ -2,7 +2,7 @@ import styles from './EditPost.module.css';
 
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { useAuthValue } from '../../context/authContext';
+import { useAuthValue } from '../../context/AuthContext.jsx';
 import { useFetchDocument } from '../../hooks/useFetchDocument';
 import { useUpdateDocument } from '../../hooks/useUpdateDocument';
 

@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 import { useAuthentication } from '../hooks/useAuthentication';
 
 // CONTEXT
-import { AuthProvider } from '../context/authContext';
+import { AuthProvider } from '../context/AuthContext.jsx';
 
 // PAGES
 import Home from '../pages/Home/Home';
