@@ -28,6 +28,7 @@
 
 .post_container h1 {
    margin: 20px 0 7px 10px;
+   text-align: left !important;
 }
  
 .post_container h3 {
