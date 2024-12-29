@@ -42,45 +42,21 @@ const EditProfile = () => {
       e.preventDefault();
 
       // Gather user data from states
-      //    const formData = new FormData();
-
-      //    formData.append("name", name);
-
-      //    if (profileImage) {
-      //       formData.append("profileImage", profileImage);
-      //    }
-      //    if (bio) {
-      //       formData.append("bio", bio);
-      //    }
-      //    if (password) {
-      //       formData.append("password", password);
-      //    }
-
-      // await dispatch(updateProfile(formData));
-
-      const userData = {
-         name
-      }
-   
-      if(profileImage) {
-         userData.profileImage = profileImage;
-      }
-   
-      if(bio) {
-         userData.bio = bio;
-      }
-   
-      if(password) {
-         userData.password = password;
-      }
-   
       const formData = new FormData();
-   
-      const userFormData = Object.keys(userData).forEach(key => formData.append(key, userData[key]))
-   
-      formData.append("user", userFormData)
 
-      await dispatch(updateProfile(userFormData));
+      formData.append("name", name);
+
+      if (profileImage) {
+         formData.append("profileImage", profileImage);
+      }
+      if (bio) {
+         formData.append("bio", bio);
+      }
+      if (password) {
+         formData.append("password", password);
+      }
+
+      await dispatch(updateProfile(formData));
 
       setTimeout(() => {
          dispatch(resetMessage());
