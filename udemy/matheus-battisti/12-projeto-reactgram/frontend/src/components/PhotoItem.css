@@ -1,0 +1,22 @@
+
+.photo-item {
+   width: 100%;
+}
+
+.photo-item img {
+   width: 100%;
+   aspect-ratio: 1;
+   object-fit: cover;
+}
+
+.photo-item h2 {
+   margin: 0.4em 0;
+}
+
+.photo-author {
+   text-align: left;
+}
+
+.photo-author a {
+   font-weight: bold;
+}

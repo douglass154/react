@@ -1,0 +1,23 @@
+
+#search {
+   width: 90%;
+   max-width: 500px;
+   margin: 0 auto;
+   padding-top: 2em;
+}
+
+#search h2 {
+   margin-bottom: 1em;
+}
+
+#search h2,
+#search h3 {
+   text-align: center;
+}
+
+#search .btn {
+   display: block;
+   max-width: 120px;
+   text-align: center;
+   margin: 0.5em 0 2em 0;
+}
