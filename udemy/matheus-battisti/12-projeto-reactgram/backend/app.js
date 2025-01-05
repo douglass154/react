@@ -13,15 +13,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Solve CORS
-// app.use(
-//    cors({ credentials: true, origin: "https://reactgram-chi.vercel.app" })
-// );
 app.use(
-   cors({
-      origin: "https://reactgram-chi.vercel.app",
-      methods: ["GET", "POST", "PUT", "DELETE"],
-      credentials: true,
-   })
+   cors({ credentials: true, origin: "https://localhost:5173" })
 );
 
 // Upload directory

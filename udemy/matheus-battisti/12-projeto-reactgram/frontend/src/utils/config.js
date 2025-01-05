@@ -1,5 +1,5 @@
-export const api = `https://reactgram-backend-phi.vercel.app/api`;
-export const uploads = `https://reactgram-backend-phi.vercel.app/uploads`;
+export const api = `https://localhost:5000/api`;
+export const uploads = `https://localhost:5000/uploads`;
 
 export const requestConfig = (method, data, token = null, image = null) => {
    let config;

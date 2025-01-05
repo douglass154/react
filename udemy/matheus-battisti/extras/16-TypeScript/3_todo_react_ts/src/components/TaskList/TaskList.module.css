@@ -1,0 +1,41 @@
+
+.task {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 400px;
+   margin: 0 auto;
+   border-bottom: 1px solid #ccc;
+   padding: 1em;
+}
+
+.details {
+   text-align: left;
+}
+
+.details h4 {
+   font-size: 1.2em;
+   margin-bottom: 1em;
+}
+
+.actions {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+
+.actions i {
+   font-size: 1.2em;
+   padding: 7px;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+.actions i:first-child {
+   background-color: rgb(81, 250, 165);
+}
+
+.actions i:last-child {
+   background-color: rgb(255, 88, 88);
+}
