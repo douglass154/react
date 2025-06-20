@@ -8,7 +8,7 @@ import Tasks from "./components/Tasks";
 import CreateTasks from "./components/CreateTasks";
 
 const App = () => {
-   const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem("tasks") || []));
+   const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem("tasks")) || []);
 
    const [message, setMessage] = useState({ message: "", type: "" });
    const [showMessage, setShowMessage] = useState(false);
