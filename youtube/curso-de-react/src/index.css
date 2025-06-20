@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer components {
+   .container {
+      @apply space-y-4 p-6 bg-slate-200 rounded-md shadow
+   }
+
+   .main-container {
+      @apply w-screen h-screen bg-slate-500 p-6 flex justify-center
+   }
+}
+
+@layer base {
+   .btn-tasks {
+      @apply bg-slate-400 text-white p-2 rounded-md cursor-pointer
+   }
+
+   .input-task {
+      @apply border border-slate-300 outline-slate-400 px-4 py-2 rounded-md
+   }
+
+   .show {
+      @apply  opacity-100
+   }
+
+   .hidden {
+      @apply  opacity-100
+   }
+
+   h1 {
+      @apply text-3xl text-slate-100 font-bold text-center
+   }
+}
