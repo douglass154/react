@@ -1,3 +1,4 @@
+import AuthCard from "./components/AuthCard";
 import Button from "./components/Button";
 import { ContextProvider } from "./contexts/Context";
 
@@ -5,6 +6,9 @@ function App() {
    return (
       <ContextProvider>
          <Button />
+         <div style={{ border: "1px solid white", padding: "10px 30px", marginTop: 50 }}>
+            <AuthCard />
+         </div>
       </ContextProvider>
    );
 }
