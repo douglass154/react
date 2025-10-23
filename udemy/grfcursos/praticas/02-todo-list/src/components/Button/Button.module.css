@@ -1,0 +1,21 @@
+
+.container button {
+   display: flex;
+   gap: 8px;
+   align-items: center;
+
+   cursor: pointer;
+   padding: 10.5px 22px;
+   border-radius: 4px;
+   outline: none;
+   border: 1px solid transparent;
+   background-color: var(--purpleDark);
+   color: var(--gray200);
+   font-weight: 600;
+   font-size: .9rem;
+   transition: .2s;
+}
+
+.container button:hover{ 
+   background-color: var(--purple);
+}
