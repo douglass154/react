@@ -2,7 +2,6 @@ import Header from "./components/Header/Header";
 import { useSaveTodos } from "./hooks/useSaveTodos";
 
 import styles from "./App.module.css";
-import TodoItem from "./components/TodoItem/TodoItem";
 import TodoList from "./components/TodoList/TodoList";
 
 const App = () => {
